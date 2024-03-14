@@ -27,7 +27,7 @@ function Navbar() {
                 <a href="#home" onClick={() => scrollToSection("home")}>Home</a>
                 <a href="#about" onClick={() => scrollToSection("about")}>About Me</a>
 				<a href="#experience" onClick={() => scrollToSection("experience")}>Experience</a>
-                <a href="#services" onClick={() => scrollToSection("services")}>My Work</a>
+                <a href="#projects" onClick={() => scrollToSection("projects")}>My Work</a>
                 <a href="#contact" onClick={() => scrollToSection("contact")}>Contact</a>
                 <button
                     className="nav-btn nav-close-btn"
