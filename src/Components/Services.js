@@ -34,8 +34,12 @@ export default function Services() {
               sx={{
                 display: "grid",
                 margin: "auto",
-                ml:"4rem",
-                gridTemplateColumns:"repeat(4, minmax(0,1fr))"
+                gap:{xs:"3rem"},
+                ml:{xs:"0rem", sm:"4 rem"},
+                gridTemplateColumns:{
+                  xs:"repeat(3, minmax(0,1fr))",
+                  sm:"repeat(4, minmax(0,1fr))"
+                }
               }}
             >
               <Typography fontSize={80} mr={20}><TbBrandNextjs/></Typography>
@@ -56,7 +60,7 @@ export default function Services() {
           </Box>
         </div>
       
-      <div className='left-services'></div>
+      <div className='left-services'>.</div>
     </div>
   )
 }

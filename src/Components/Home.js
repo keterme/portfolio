@@ -30,19 +30,19 @@ const Home = () => {
       key: '1',
       text: "Hey! I'm a",
       texttwo: '<Developer/>',
-      image: '../../assets/setup.jpg',
+      image: '../../site/assets/setup.jpg',
     },
     {
       key: '2',
-      text: "I train & test data as",
-      texttwo: '<Data Scientist/>',
-      image: '../../assets/backlit.webp',
+      text: "Visualize as",
+      texttwo: '<Analyst/>',
+      image: '../../site/assets/backlit.webp',
     },
     {
       key: '3',
       text: "CI/CD in",
       texttwo: '<DevOps/>',
-      image: '../../assets/owl.jpg',
+      image: '../../site/assets/owl.jpg',
     },
   ];
 
@@ -79,7 +79,7 @@ const Home = () => {
                 transition={{type: 'spring', delay: '1', stiffness: 70}}
               >
                 <button className='btn'>
-                  <a href='https://elvisresume.tiiny.site' target='blank'>Resume</a>
+                  <a href='https://myelvisresume.tiiny.site/' target='blank'>Resume</a>
                 </button>
               </motion.div>
             </div>

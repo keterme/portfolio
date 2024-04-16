@@ -43,7 +43,9 @@ const Contact = () => {
           <h2>Contact Info:</h2>
           <div className='para'>
             <div className='contactlabels'>
-              <a className='icons' href='mailto:ketere254@gmail.com' target='blank'><IoIosMailOpen/></a>
+              <a className='icons' href='mailto:ketere254@gmail.com' target='blank'>
+                <IoIosMailOpen/>
+              </a>
               <div className='icons'>
                 <BsFillTelephoneFill/>
               </div>
@@ -52,9 +54,9 @@ const Contact = () => {
               <div className='info'>Email : ketere254@gmail.com</div>
               <div className='info'>Phone number : 0741457808</div>
             </div>
-            <div class="container">
-              <div class="arrow-wrapper">
-                <div class="arrow"></div>
+            <div className="container">
+              <div className="arrow-wrapper">
+                <div className="arrow"></div>
               </div>
             </div>
 

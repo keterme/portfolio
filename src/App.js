@@ -22,9 +22,7 @@ function App() {
             <div id="home">
 				<Navbar />
 			</div>
-            <div>
-                <Home />
-            </div>
+            <Home />
             <div id="about" className="aboutsection">
                 <div data-aos="flip-down" className="animes">
                     <About />

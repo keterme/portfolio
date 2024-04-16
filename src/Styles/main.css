@@ -89,8 +89,7 @@ body,html {
 	max-width: 70%;
 	font-weight: 900;
 	font-family: 'Inter', sans-serif;
-	font-size: 55px;
-	transform: translateX(-50%);
+	font-size: 55px;	
 	text-align: left;
 	color: #fa6060;
 }
@@ -166,7 +165,7 @@ div.alice-carousel > ul.alice-carousel__dots {
 }
 
 .left-about {
-	background-image: url('../../public/assets/elvis.jpg');
+	background-image: url('../../public/assets/gradpic.jpeg');
 	border-radius: 17rem 17rem 17rem 17rem;
 	text-shadow: 0px 0px 138px var(--shadow);
 	box-shadow: 0px 0px 138px var(--shadow);
@@ -405,14 +404,7 @@ form {
 	grid-template-columns: repeat(2,minmax(0,1fr));
 }
 
-.three {
-	margin: 0rem 1rem 0rem;
-	padding: 1rem;
-	display: grid;
-	grid-template-columns: repeat(1,minmax(0,1fr));
-}
-
-.four, .five {
+.three, .four, .five {
 	margin: 0rem 1rem 0rem;
 	padding: 1rem;
 	display: grid;
@@ -637,4 +629,188 @@ caption {
 		transform: translate(0px, 0px); 
 		opacity: 1;
 	}
+}
+
+/**********SMALL DEVICES*******/
+@media only screen and (max-width: 600px) {
+	* {
+		margin: auto;
+		margin: 0;
+	}
+
+	.carousel-text {
+		max-width: 100%;
+		top: 80px;
+	}
+
+	h2 span span {
+		font-size: 70px;
+	}
+
+	h1 span span {
+		line-height: 0em;
+		bottom: 0em;
+	}
+
+	.resume-text {
+		left: 0%;
+		top: 70%;
+		width: 90%;
+		padding: 20px;
+	}
+	.btn {
+		width: 80%;
+	}
+
+	div.alice-carousel > ul.alice-carousel__dots {
+		bottom: 25px;
+		left: 45%;
+	}
+
+	.about, .experience, .services,
+	.portfolio__container, .contact {
+		grid-template-columns: repeat(1, minmax(0,1fr));
+	}
+
+	.left-about {
+		margin: 1px;
+		border-radius: 19rem 19rem 19rem 19rem;
+		height: 60vh;
+		background-size: 100%;
+	}
+
+	.right-about h2 {
+		font-size: 15px;
+	}
+
+	.animes {
+		margin: auto;
+		margin: 0px 90px;
+	}
+
+	.experience, .services, .projects, .contact, .footer {
+		height: fit-content;
+	}
+
+	.first, .second, .third {
+		padding: 2px;
+		margin: 0px;
+		margin-bottom: 4rem;
+	}
+
+	.header__content {
+		margin: 0px;
+	}
+
+	.left-services {
+		margin: 2rem;
+		height: 40vh;
+	}
+	
+	.portfolio__container {
+		grid-gap: .6rem;
+    	gap: .6rem;
+	}
+
+	.portfolio__item {
+		padding: 1rem;
+		margin-top: 2.5rem;
+		margin-bottom: 1rem;
+	}
+
+	.link-icon {
+		margin-left: 30%;
+		margin-top: 25%;
+		font-size: 6.5rem;
+	}
+
+	.portfolio__item-image {
+		width: 100%;
+	}
+
+	.bluecontact {
+		margin-top: 1rem;
+		height: fit-content;
+	}
+
+	.icons {
+		margin-bottom: 2rem;
+		margin-top: 1rem;
+	}
+
+	form, caption {
+		margin: 0px;
+	}
+
+	caption {width: 60vw;margin-bottom: .5rem;}
+
+	.one {
+		margin:  3rem 1.5rem 0rem;;
+	}
+
+	.two, .three, .four {
+		margin: 0rem;
+		grid-template-columns: repeat(1,minmax(0,1fr));
+	}
+
+	.two {gap: 30px}
+
+	.fnandln {
+		padding: 6px;
+		margin-top: 0rem;
+	}
+
+	textarea {
+		height: 100px;
+	}
+
+	.submit {
+		padding: .7rem;
+		margin-left: 1.3rem;
+		width: calc(89% - 10px);
+	}
+
+	.container {
+		display: none;
+	}
+
+	.footer, .footer_content {
+		height: 100%;
+	}
+
+	.footer_content ul {
+		margin: 0;
+		/* border: 1px solid white; */
+	}
+	
+	.footer_content li {
+		margin: 2rem 1.5rem;
+	}
+	
+	.footer_line {
+		margin-left: 3rem;
+		margin-top: .8rem;
+		width: 80%;
+	}
+
+	.ham-menu { margin: 65px 1rem 0px;}
+	.ham-menu, .ham-menu::before, .ham-menu::after { width: 60px; height: 11px;}
+
+	.rights, .socials {
+		text-align: left;
+		margin: 58px 0rem 0px;
+	}
+
+	.rights {
+		font-size: 11.9px;
+		margin-top: 60px;
+	}
+
+	.socials {margin-left: .2rem;}
+
+	.social {
+		margin-left: 1rem;
+		font-size: 25px;
+	}
+	
 }

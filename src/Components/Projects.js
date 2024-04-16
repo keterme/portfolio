@@ -20,9 +20,9 @@ const Projects = () => {
           textAlign:"center"
         }}
       >Sample Projects</Typography>
-      <div class="grid portfolio__container">
+      <div className="grid portfolio__container">
         <article 
-          class="portfolio__item"
+          className="portfolio__item"
           onMouseEnter={() => setIsHovered1(true)}
           onMouseLeave={() => setIsHovered1(false)}
         >
@@ -31,7 +31,7 @@ const Projects = () => {
               <RiLinkM className='link-icon' />
             </a>
           ) : null}
-          <div class="portfolio__item-image">
+          <div className="portfolio__item-image">
             <img src="https://elvisketer.netlify.app/static/media/rest.78b06f5b.jpg" alt="" height="180px"/>
           </div>
           <h3>Company Intranet Application</h3>
@@ -43,7 +43,7 @@ const Projects = () => {
         </article>
         
         <article 
-          class="portfolio__item"
+          className="portfolio__item"
           onMouseEnter={() => setIsHovered2(true)}
           onMouseLeave={() => setIsHovered2(false)}
         >
@@ -52,7 +52,7 @@ const Projects = () => {
               <RiLinkM className='link-icon' />
             </a>
           ) : null}
-          <div class="portfolio__item-image">
+          <div className="portfolio__item-image">
             <img src="https://elvisketer.netlify.app/static/media/ml.5cab7735.jpg" alt=""/>
           </div>
           <h3>Global Covid Data Visualization</h3>
@@ -65,7 +65,7 @@ const Projects = () => {
         </article>
         
         <article 
-          class="portfolio__item"
+          className="portfolio__item"
           onMouseEnter={() => setIsHovered3(true)}
           onMouseLeave={() => setIsHovered3(false)}
         >
@@ -74,7 +74,7 @@ const Projects = () => {
               <RiLinkM className='link-icon' />
             </a>
           ) : null}
-          <div class="portfolio__item-image">
+          <div className="portfolio__item-image">
             <img src="https://elvisketer.netlify.app/static/media/mlm.6c6e5452.jpg" alt=""/>
           </div>
           <h3>Multilevel Marketing System</h3>
@@ -86,7 +86,7 @@ const Projects = () => {
         </article>
         
         <article 
-          class="portfolio__item"
+          className="portfolio__item"
           onMouseEnter={() => setIsHovered4(true)}
           onMouseLeave={() => setIsHovered4(false)}
         >
@@ -95,7 +95,7 @@ const Projects = () => {
               <RiLinkM className='link-icon' />
             </a>
           ) : null}
-            <div class="portfolio__item-image">
+            <div className="portfolio__item-image">
               <img src="https://elvisketer.netlify.app/static/media/bouncyball.7edee7fc.jpg" alt=""/>
             </div>
             <h3>Chaos Ball Game Application</h3>
