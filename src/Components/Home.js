@@ -30,19 +30,19 @@ const Home = () => {
       key: '1',
       text: "Hey! I'm a",
       texttwo: '<Developer/>',
-      image: '../../site/assets/setup.jpg',
+      image: '../../portfolio/assets/setup.jpg',
     },
     {
       key: '2',
       text: "Visualize as",
       texttwo: '<Analyst/>',
-      image: '../../site/assets/backlit.webp',
+      image: '../../portfolio/assets/backlit.webp',
     },
     {
       key: '3',
       text: "CI/CD in",
       texttwo: '<DevOps/>',
-      image: '../../site/assets/owl.jpg',
+      image: '../../portfolio/assets/owl.jpg',
     },
   ];
 

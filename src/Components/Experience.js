@@ -1,12 +1,10 @@
 import React from 'react';
-import { Typography, useTheme } from '@mui/material';
+import { Typography } from '@mui/material';
 import SportsEsportsIcon from '@mui/icons-material/SportsEsports';
 import StackedBarChartIcon from '@mui/icons-material/StackedBarChart';
 import CodeIcon from '@mui/icons-material/Code';
 
 const Experience = () => {
-  const theme = useTheme();
-
   return (
     <div className='experience'>
       <div className='first'>
